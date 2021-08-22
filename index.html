@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search result page</title>
+    <!--<link rel="stylesheet" href="https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css">-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="header-nav">
+                <div class="main-mobile"><button type="button" class="btn-default btn-hamburguer"><span><svg class="icon-hamburguer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                  </svg></span></button></div>
+                <div class="google-image"><a href="/?sa=X&ved=0ahUKEwjdnfyP8b_yAhVAppUCHRWDBtIQOwgC"><img src="https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" class="brand-logo" /></a></div>
+                
+                    <form class="header-search">
+                        <div><button type="button" class="btn-default btn-search"><svg class="icon icon-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                          </svg></button></div>
+                        <div class="form-group"><input type="text" class="form-control"/></div>
+                        <div><button type="button" class="btn-default btn-microphone"><svg class="icon icon-microphone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#70757a" d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"></path>
+                          </svg></button></div>
+                    </form>
+                
+                <div class="profile-header"><img class="profile-img" src="https://lh3.googleusercontent.com/ogw/ADea4I7iIaJcHYxQsEHtNyu-kJMcyVbE1Rhs162t8p0v=s64-c-mo" /></div>
+            </div>
+            <div class="nav-mobile" id="nav-mobile">
+                <img src="https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" class="brand-logo" />
+                <nav class="nav">
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Pagina Principal</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Historia de Busqueda</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Colecciones</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Busqueda sin conexion</span></a></div>
+                    <hr />
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Configuracion</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Tus datos en la Busqueda</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Ocultar resultados explícitos: desactivado</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Modo oscuro: desactivado</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Como funciona la Busqueda</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Ayuda</span></a></div>
+                    <div class="nav-item"><a href="#" class="nav-link"><span>Enviar comentarios</span></a></div>
+                </nav>
+            </div>
+            <div class="types-search card">
+                <div><a href="#" class="link active">Todos</a></div>
+                <div><a href="#" class="link">Imágenes</a></div>
+                <div><a href="#" class="link">Videos</a></div>
+                <div><a href="#" class="link">Noticias</a></div>
+                <div><a href="#" class="link">Maps</a></div>
+            </div>
+            <div class="types-search-pad card">
+                <div><a href="#" class="link active">Todos</a></div>
+                <div><a href="#" class="link">Imágenes</a></div>
+                <div><a href="#" class="link">Videos</a></div>
+                <div><a href="#" class="link">Noticias</a></div>
+                <div><a href="#" class="link">Maps</a></div>
+                <div><a href="#" class="link">Shopping</a></div>
+                <div><a href="#" class="link">Libros</a></div>
+                <div><a href="#" class="link">Vuelos</a></div>
+                <div class="link tool-search">Herramientas de búsqueda</div>
+            </div>
+        </header>
+        <main class="container">
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/fjgcya/the_odin_project_still_worth_to_go_through_in_2020/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>fjgya</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">The Odin Project still worth to go through in 2020? - Reddit</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>But then I saw a lot of people on this subreddit recommending The Odin Project. Everyone is saying that this is propably the best open source to learn...</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/ly9fmk/the_odin_project_still_worth_to_go_through_in_2021/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>ly9fmk</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">The Odin Project still worth to go through in 2021? - Reddit</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>The Odin Project is overall an awesome resource and I'd recommend it to anyone who feels comfortable with the auto-didactic nature of it.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-related-questions card">
+                <div class="gc-related-questions-title"><h3>Preguntas relacionadas</h3></div>
+                <div class="gc-questions-list">
+                    <div class="gc-questions-heading">
+                        <div class="gc-questions-title">
+                            <span>How long does the Odin project take Reddit?</span>
+                        </div>
+                        <div class="icon-angle up">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="rgba(0,0,0,.24)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gc-questions-body">
+                        <span>It took me <b>5 months</b> , around 65 customized applications, and 3 in-person interviews before I got hired. It was tough. It was rough. But looking back it's one of the things I'm most proud of.</span><span class="gc-questions-time">10 dic. 2019</span>
+                        <div class="gc-result related-answer">
+                            <div class="gc-result-header card">
+                                <a href="https://www.reddit.com/r/learnprogramming/comments/e8o40c/alumni_of_the_odin_project_how_have_you_found/">
+                                    <div class="gc-result-link">
+                                        <span class="gc-result-img related-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                                        <p class="gc-result-url related-answer-link">https://www.reddit.com<span> > </span><span>comments</span></p>
+                                    </div>
+                                    <div class="gc-result-heading">
+                                        <h3 class="gc-result-title related-answer-subtitle">Alumni of The Odin Project - How have you found things since...</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                     </div>   
+                     <div class="gc-questions-heading  gc-questions-border-line related-link">
+                        <div class="gc-questions-title">
+                            <a hhref="/search?authuser=0&sxsrf=ALeKk03K-4_ek0OaQFPti3Ulle8D7zrizA:1629353941100&q=How+long+does+the+Odin+project+take+Reddit%3F&sa=X&ved=2ahUKEwiygP22uLzyAhUxqZUCHX0nAkcQzmd6BAg2EAU">Más resultados</a>
+                        </div>
+                    </div>
+                    <div class="gc-questions-heading gc-questions-border-line card">
+                        <div class="gc-questions-title">
+                            <span>Can Odin project get you a job?</span>
+                        </div>
+                        <div class="icon-angle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="rgba(0,0,0,.24)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gc-questions-heading gc-questions-border-line">
+                        <div class="gc-questions-title">
+                            <span>Is the Odin project worth it Reddit?</span>
+                        </div>
+                        <div class="icon-angle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="rgba(0,0,0,.24)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gc-questions-heading gc-questions-border-line">
+                        <div class="gc-questions-title">
+                            <span>Is the Odin project worth doing?</span>
+                        </div>
+                        <div class="icon-angle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="rgba(0,0,0,.24)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gc-questions-heading gc-questions-border-line">
+                        <div class="gc-questions-title">
+                            <span>How many hours a day is Odin project?</span>
+                        </div>
+                        <div class="icon-angle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="rgba(0,0,0,.24)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line">
+                        <div class="gc-questions-title comments">
+                            <span>Comentarios</span>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/ksp0q1/is_the_odin_project_good/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>is_the...</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">Is The Odin Project good?: learnprogramming - Reddit</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>Its the best way to learn, however be prepared. Its not easy, it takes time, A LOT of time. But it pays off. Ive seen stories of people who ...</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/nl0sdm/done_with_the_odin_project_foundations_what_i/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>done_...</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">Done with The Odin Project Foundations: What I learned</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>819 votes, 111 comments. Hi! Pretty new to the subreddit, but been a lurker for a while, and I wanted to share my experience! I just finished The …</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/e8o40c/alumni_of_the_odin_project_how_have_you_found/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>alumn...</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">Alumni of The Odin Project - How have you found things since ...</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>Odin Project is great, at the very least for a place to start and launch from. Doing your own self led projects is the best advice I could give.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/ly9fmk/the_odin_project_still_worth_to_go_through_in_2021/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>the_o...</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">The Odin Project vs Free Code Camp: learnprogramming - Reddit</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>I'm looking to become a full stack developer, and have been referred to The Odin Project, and Free Code Camp. Which would be recommended? Which is …</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-related-questions card">
+                <div class="gc-related-questions-title"><h3>Otras personas también buscan</h3></div>
+                <div class="gc-questions-list">
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>The Odin Project opiniones</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>Freecodecamp vs Odin Project reddit</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>The Odin project web development 101</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>The Odin Project time to complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/fjgcya/the_odin_project_still_worth_to_go_through_in_2020/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>the_o...</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">The Odin Project introduced a full-blown React course - Reddit</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>2.0k votes, 122 comments. Hey @everyone! You may notice your percentage change in the JS section of TOP, this is because we introduced a full-blown …</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-result with-recommended-info">
+                <div class="gc-result-header">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/fjgcya/the_odin_project_still_worth_to_go_through_in_2020/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AWJwL/ABtE6FMAjDQHDe+4SE+mRycmFe4i14j8SzCVQtHq+QE3iBqMBLEkzZhR1c1yczfHLZp+vd3/fbBLEp3IBuQBgQR4RxzU33T8kehBl45Si5NwmVoPys9+TZlZV89l/cb5kT9hxN1KMAKu83FFA4CHQJoRG760WMxx1yrnEP0UIgZGRUu15QEXjn2xXPQEVCwQVsmI3nIyKwlyK2AGzDPgP56YDMEGALsAerCHxxeAyQ9V+ZttBp7wz0buZwV6WH6HTutEoXAKtzpDpGvUgUQc8kUkinQPjfV7mWuQNVNv/+749JRZY4HOM5t9ZzfgHqxVv0CeiELQAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>is_the...</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">Is the Odin Project Legit?: learnprogramming - Reddit</h3>
+                        </div>
+                    </a>
+                    <br />
+                    <span class="card-search-comment">10 respuestas</span>
+                    <div class="gc-result-body">
+                        <h6>I've seen a lot of amazing reviews about people being able to do The Odin Project and able to land a junior web development job. I was kinda curious ...</h6>
+                    </div>
+                </div>
+                <div class="gc-better-answers">
+                    <div class="gc-better-answers-ex">
+                        <div class="gc-better-answers-ex-heading">
+                            <span class="card-featured-check-icon"><svg class="icon-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="#1E8E3E" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                            </svg></span>
+                            <h5></span class="gc-better-answers-ex-title">Mejor respuesta<span> - 24 votos</span></h5>
+                        </div>
+                        <div class="gc-better-answers-ex-body">
+                            <span>I did some of The Odin Project but I already knew some basics from MDN and FCC. Overall ...</span>
+                            <a class="gc-better-answers-ex-more" href="#">Más</a>
+                        </div>
+                    </div>
+                    <div class="gc-better-answers-ex">
+                        <div class="gc-better-answers-ex-heading">
+                            <h5></span class="gc-better-answers-ex-title"><span> 13 votos</span></h5>
+                        </div>
+                        <div class="gc-better-answers-ex-body">
+                            <span>I love the way The Odin Project lays out their projects, so don't take one person's ...</span>
+                            <a class="gc-better-answers-ex-more" href="#">Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/fjgcya/the_odin_project_still_worth_to_go_through_in_2020/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABw0lEQVR4AWKAAUClxAwlVxSdsInZxzaqlOlj26li26rDLra9tu39tsb2n5v/Nt7d0T3nvWvfoI1coId9g01JIBryDA/ZmfldFF6uZKvwdZ/DK1SujefsYYt2Cl/2evxy/eIuyojPMpp7vxPsDU/vxGKxniGnMBM5eLji7WG3PBnZWCrvvuM/7Nb1kHdotxnEL/soteBqiZJ/uYb/sAv+fWrRjRIl52yDnHmyJm5/Wtmte8zLdcih28e8WAPW2gdXEw1oqJR1qipeADn3QoEeCfQ3JQI3mb1P+HYYyIwrwH09CmLWWVBK74Hw9SB4+dKNpmTgEJsuKzVv4MWVpUCXvQJrexF8fHwbzHVvwKVRB5IGkGW5TMUqwNJeAhrTarxmgy4GGasCTdO+JD6SaHQwwzA61tYMONYOGRkZkJeX10G3tzYDy7IeY8V94wYIBoPzSZIEHMeBIAiQZRm9DhrDMKAoCsLh8Pi4AdABkSRZY2QCmqb/BECOiDfkOcgm8RAdjuU8zwPHcX8CoICCIIDL5VqIbJLNYaQoikWSJP0JYPAIZ+i6PtCUCiBDm8325lcA3W63PzJkfU3pQigUmmu8qYlsfgDMRJ7Di0hQ4gAAAABJRU5ErkJggg=="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>su...</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">Success Stories | The Odin Project</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>After reading people's success stories on Reddit on how they found a development job, many people praised the curriculum at TOP and how they got a job even ...</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-result">
+                <div class="gc-result-header card">
+                    <a href="https://amp-reddit-com.cdn.ampproject.org/wp/s/amp.reddit.com/r/learnprogramming/comments/fjgcya/the_odin_project_still_worth_to_go_through_in_2020/?usqp=mq331AQKKAFQArABIIACAw%3D%3D">
+                        <div class="gc-result-link">
+                            <span class="gc-result-img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWJwL/AB4/8PQ8UBjZMBBsMwFIZznR2g9ygY6xlWO0ENgAE20G4KvURh2BmygI3aBpDaBcpbfsLLq0yKD/X6f/r+pDRe9mTrk2A87zD/BwvGRntI8FqvkgKydc6hQGLrFvMlgkkI/DNmKRT25jBLePeUYCg0DZunpOgxhCQotPUcUDgLjCrprkhglHZU9O2y6NfZ5io7MMo6CPgwAczwcqwfyFmgVeZDUyAAfpXoCVl5D4y6cZiBHEVzmEFH4iZib8dxRoU5vbc9fcrHHISToGiHjpRdLRXE+pkwWxLuIicE8qQAPxIHWAIwB+ndI6WGN/EHvHcj+CRxCZgAAAAASUVORK5CYII="></img></span>
+                            <p class="gc-result-url">https://www.reddit.com<span> > </span><span>...</span></p>
+                        </div>
+                        <div class="gc-result-heading">
+                            <h3 class="gc-result-title">How I went from newbie to Software Engineer in 9 months - Signify ...</h3>
+                        </div>
+                    </a>
+                    <div class="gc-result-body">
+                        <h6>I decided to make new Twitter, Reddit, Stack Overflow, Medium, and Quora accounts using my ... Some people recommended The Odin Project or freeCodeCamp.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gc-related-questions card">
+                <div class="gc-related-questions-title"><h3>Busquedas relaciondas</h3></div>
+                <div class="gc-questions-list">
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>El proyecto de Odin</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>Odin code</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>The Odin Project spanish</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>The Odin Project vs freeCodeCamp</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>The Odin Project how long reddit</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>The Odin Project Ubuntu</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>The Odin Project certificate</span>
+                        </div>
+                    </div>
+                    <div class="gc-questions-border-line card-others-search">
+                        <div class="icon-search-related">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="#70757a" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                              </svg>
+                        </div>
+                        <div class="card-others-search-title">
+                            <span>Odin coding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="button-more-search">
+                <div class="icon-angle more-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="rgba(0,0,0,.24)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                    </svg>
+                </div>
+                <div class="button-more-search-title">
+                    <span>Más resultados</span>
+                </div>
+            </button>
+        </main>
+        <footer class="gc-location gc-questions-border-line">
+            <div class="gc-questions-border-line">
+                <div class="gc-location-country">
+                    <span>Argentina</span>
+                </div>
+            </div>
+            <div class="gc-location-by">
+                <div class="gc-location-by-type-fixed footer-scrolling">
+                    <div>
+                        <span>Ofrecido por Google en:</span>
+                    </div>
+                </div>
+                <div class="gc-location-by-type location-type-fixed" style="margin-left: 110px">
+                    <div>
+                        <span>español (Latinoamérica)</span>
+                    </div>
+                </div>
+                <div class="gc-location-by-type">
+                    <div>
+                        <a class="gc-location-by-middle" href="#"><span>English</span></a>
+                    </div>
+                </div>
+                <div class="gc-location-by-type">
+                    <div>
+                        <a class="btn btn-outline-primary" href="#"><span>MÁS</span></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="gc-location-current">
+                    <h5 class="gc-location-current-text">
+                        <span class="gc-location-current-title"></span>
+                        Mar del Plata, Provincia de Buenos Aires 
+                        <span class="gc-location-current-subtitle">- Según tu actividad anterior - <a href="#" style="color: #70757a; text-decoration: none;">Usar la ubicación precisa</a></span>
+                    </h5>
+                    <span><a href="#" class="gc-location-current-more-link">Más información</a></span>
+                </div>
+            </div>
+            <div>
+                <div class="gc-owner-account">
+                    <h6 class="gc-owner-account-email">santiago.monaco33@gmail.com
+                        <a href="#" class="gc-owner-account-change"> - Cambiar cuenta</a>
+                    </h6>
+                </div>
+            </div>
+            <div>
+                <div class="gc-footer-option-primary">
+                    <div><a href="#">Preferencias</a></div>
+                    <div><a href="#">Ayuda</a></div>
+                    <div><a href="#">Comentario</a></div>
+                </div>
+            </div>
+            <div>
+                <div class="gc-footer-option-secondary">
+                    <div><a href="#">Privacidad</a></div>
+                    <div><a href="#">Condiciones</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
